@@ -1,4 +1,4 @@
-package com.example.a39912246.profinder;
+package com.app.lucasgiuri.profinder2;
 
 import org.junit.Test;
 

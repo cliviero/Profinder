@@ -1,4 +1,4 @@
-package com.example.a39912246.profinder;
+package com.app.lucasgiuri.profinder2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.a39912246.profinder", appContext.getPackageName());
+        assertEquals("com.app.lucasgiuri.profinder2", appContext.getPackageName());
     }
 }
