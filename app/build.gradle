@@ -25,4 +25,5 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     //implementation 'com.facebook.android:facebook-sdk:[4,5)'
     implementation 'com.facebook.android:facebook-login:[4,5)'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
 }
