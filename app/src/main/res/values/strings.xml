@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Profinder2</string>
-    <string name="facebook_app_id">2041423056173985</string>
-    <string name="fb_login_protocol_scheme">fb2041423056173985</string>
+    <string name="app_name">Profinder</string>
+    <string name="facebook_app_id">347004432527167</string>
+    <string name="fb_login_protocol_scheme">fb347004432527167</string>
     <string name="error_login">Error de login</string>
     <string name="cancel_login">Sesión cancelada</string>
 </resources>
