@@ -1,46 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    tools:context=".LoginActivity">
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="291dp"
+            android:layout_height="347dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/logo"/>
+
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="174dp">
+        android:layout_alignParentBottom="true">
 
-        <com.facebook.login.widget.LoginButton
-            android:id="@+id/loginButton"
+        <Button
+            android:id="@+id/btnProfesor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:background="@drawable/rectangle_rounded_corners_white"
             android:padding="@dimen/Margin_5"
-            android:paddingTop="20dp"
-            android:text="Login con Facebook"
+            android:paddingTop="80dp"
+            android:text="PROFESOR"
             android:textColor="@android:color/black"
             android:textSize="@dimen/LetterSize_Medium" />
 
-       <!-- <Button
-            android:id="@+id/LoginActivity"
+        <Button
+            android:id="@+id/btnAlumno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/Margin_5"
             android:background="@drawable/rectangle_rounded_corners_white"
+            android:textSize="@dimen/LetterSize_Medium"
             android:padding="@dimen/Margin_5"
-            android:text="Registrarse"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/LetterSize_Medium" />-->
+            android:text="ALUMNO" />
 
     </LinearLayout>
 
-
-
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
