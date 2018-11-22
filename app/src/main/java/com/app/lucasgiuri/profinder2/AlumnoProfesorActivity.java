@@ -19,7 +19,7 @@ public class AlumnoProfesorActivity extends Activity {
         profesor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), com.app.lucasgiuri.profinder2.LoginActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
             }
         });
@@ -27,7 +27,7 @@ public class AlumnoProfesorActivity extends Activity {
         alumno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), com.app.lucasgiuri.profinder2.LoginActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
             }
         });

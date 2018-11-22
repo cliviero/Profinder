@@ -32,6 +32,8 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
+                String accessToken = loginResult.getAccessToken().toString();
+                Log.d("Cele", accessToken);
                 goMainScreen();
             }
 
